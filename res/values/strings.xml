@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Magic Conch</string>
+    <string name="choose_sound">Choose Conch Sound:</string>
+    <string name="the_shell_has_spoken">The Shell Has Spoken</string>
+    <string name="pull_string">Pull String</string>
+    <array name="sound_array">
+        <item>Nothing</item>
+        <item>No</item>
+        <item>No (Sarcastic)</item>
+        <item>Try Asking Again</item>
+    </array>
+
+</resources>

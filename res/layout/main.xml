@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_sound"
+            android:id="@+id/choose_conch_sound_text_view"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="39dp"/>
+
+    <Spinner
+            android:layout_width="164dp"
+            android:layout_height="44dp"
+            android:id="@+id/sound_spinner"
+            android:spinnerMode="dropdown"
+            android:layout_toRightOf="@+id/choose_conch_sound_text_view"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="29dp"/>
+
+    <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp"
+            android:id="@+id/main_video_view"
+            android:visibility="invisible"
+            android:layout_alignLeft="@+id/choose_conch_sound_text_view"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="230dp"/>
+
+    <Button
+            android:layout_width="533dp"
+            android:layout_height="582dp"
+            android:id="@+id/conch_button"
+            android:background="@drawable/conch"
+            android:singleLine="false"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="347dp"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_shell_has_spoken"
+            android:id="@+id/shell_has_spoken_check_box"
+            android:checked="true"
+            android:layout_alignLeft="@+id/choose_conch_sound_text_view"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"/>
+
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pull_string"
+            android:id="@+id/pull_string_check_box"
+            android:layout_alignRight="@+id/shell_has_spoken_check_box"
+            android:layout_below="@+id/shell_has_spoken_check_box"
+            android:layout_alignLeft="@+id/conch_button"
+            android:checked="true"/>
+
+</RelativeLayout>
+
